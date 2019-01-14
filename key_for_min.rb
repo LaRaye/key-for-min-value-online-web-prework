@@ -6,7 +6,10 @@ def key_for_min_value(name_hash)
   min_key = 0
   
   name_hash.each {|key, value|
-    if value < min_value
+    if name_hash = { }
+      min_value = nil
+    
+    elsif value < min_value
       min_value = value
       min_value = key
     end
