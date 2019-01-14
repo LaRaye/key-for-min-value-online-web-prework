@@ -10,13 +10,10 @@ def key_for_min_value(name_hash)
     min_key = name_hash.first[0]
   
     name_hash.each {|key, value|
-      min_value =
-      min_key = nil
-    
       if value < min_value
-      min_value = value
-      min_value = key
-    end
+        min_value = value
+        min_value = key
+      end
   }
   min_key
 end
